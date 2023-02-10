@@ -12,4 +12,3 @@ function createItem(item) {
     localStorage.setItem('items', JSON.stringify(itemsArray))
     
 }
-
