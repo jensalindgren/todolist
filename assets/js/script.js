@@ -7,25 +7,25 @@ const displayArea = document.getElementById('displayArea');
 // Create a new item
 
 document.querySelector('#enter').addEventListener('click', () => {
-  const item = document.querySelector('#item')
-  createItem(item)
-})
+  const item = document.querySelector('#item');
+  createItem(item);
+});
 function createItem(item){
-  itemsArray.push(item.value)
-  localStorage.setItem('items', JSON.stringify(itemsArray))
-  location.reload()
+  itemsArray.push(item.value);
+  localStorage.setItem('items', JSON.stringify(itemsArray));
+  location.reload();
 }
 
 // Remove an item and clear local storage
 
 removeItemButton.addEventListener('click', () => {
-  localStorage.removeItem(item.value,1)
-  location.reload()
+  localStorage.removeItem(item.value,1);
+  location.reload();
 });
 
 clearLocalStorageButton.addEventListener('click', () => {
   localStorage.clear();
-  location.reload()
+  location.reload();
 });
 
 
@@ -40,4 +40,4 @@ for (let i = 0; i < localStorage.length; i++) {
   displayArea.appendChild(item);
 }
 
-console.log(itemsArray)
+console.log(itemsArray);
