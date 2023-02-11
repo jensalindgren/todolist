@@ -32,10 +32,11 @@ clearLocalStorageButton.addEventListener('click', () => {
 // Display all items
 
 for (let i = 0; i < localStorage.length; i++) {
+
+  const item = document.createElement('div');
   const key = localStorage.key(i);
   const value = localStorage.getItem(key);
 
-  const item = document.createElement('div');
   item.innerHTML = `<li>${key}: ${value}</li>`;
   displayArea.appendChild(item);
 }
