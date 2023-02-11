@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="assets/js/script.js"></script>
 </head>
 <body>
     <main>
         <h1>Todo List</h1>
-        <div class="input-header">
-            <div class="todo-input">
-                <input type="text" id="item" placeholder="Enter a task...">
-                <button id="add">Add</button>
-                <button id="delete">Delete</button>
-            </div>
+        <div>
+          <div class="to-do-input">
+            <input type="text" id="item" placeholder="Enter a task...">
+            <button id="enter">Enter</button>
+            <button id="clearLocalStorage">Clear Local Storage</button>
+            <button id="removeItem">Remove Item</button>
+          </div>
+          <div id="displayArea"></div>
         </div>
-        <div class="todo-list"></div>
-    </main>
+      </main>
+      <script src="assets/js/script.js"></script>
 </body>
 </html>
