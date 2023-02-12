@@ -10,6 +10,7 @@ document.querySelector('#enter').addEventListener('click', () => {
   const item = document.querySelector('#item');
   createItem(item);
 });
+
 function createItem(item){
   itemsArray.push(item.value);
   localStorage.setItem('items', JSON.stringify(itemsArray));
@@ -30,7 +31,7 @@ clearLocalStorageButton.addEventListener('click', () => {
 
 
 // Display all items
-
+// Loop through localStorage and display the keys and values
 for (let i = 0; i < localStorage.length; i++) {
 
   const item = document.createElement('div');
@@ -40,5 +41,7 @@ for (let i = 0; i < localStorage.length; i++) {
   item.innerHTML = `<li>${key}: ${value}</li>`;
   displayArea.appendChild(item);
 }
+
+// Console log items
 
 console.log(itemsArray);
