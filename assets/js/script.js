@@ -48,6 +48,6 @@ for (let i = 0; i < itemsArray.length; i++) {
 console.log(itemsArray);
 
 //window.onload = displayItems();
-window.onload = function() {
+window.onload = () => {
 displayItems()
 };
