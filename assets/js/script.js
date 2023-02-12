@@ -15,15 +15,9 @@ function createItem(item){
   itemsArray.push(item.value);
   localStorage.setItem('items', JSON.stringify(itemsArray));
   location.reload();
-}
+};
 
-// Remove an item and clear local storage
-
-removeItemButton.addEventListener('click', () => {
-  itemsArray.splice(0, 1);
-  localStorage.removeItem('items', JSON.stringify(itemsArray));
-  location.reload();
-});
+// clear local storage
 
 clearLocalStorageButton.addEventListener('click', () => {
   localStorage.clear();
@@ -33,16 +27,27 @@ clearLocalStorageButton.addEventListener('click', () => {
 
 // Display all items
 // Loop through localStorage and display the keys and values
-for (let i = 0; i < localStorage.length; i++) {
-
-  const item = document.createElement('div');
-  const key = localStorage.key(i);
-  const value = localStorage.getItem(key);
-
-  item.innerHTML = `<li>${key}: ${value}</li>`;
-  displayArea.appendChild(item);
-}
-
+function displayItems(){
+  let items = "";
+for (let i = 0; i < itemsArray.length; i++) {
+  items += `<div class="item">
+  <div class="input-controller">
+    <textarea disabled>${itemsArray[i]}</textarea>
+    <div class="edit-controller">
+    </div>
+  </div>
+  <div class="update-controller">
+    <button class="saveBtn">Save</button>
+    <button id="removeItem">Remove</button>
+  </div>
+</div>`
+  };
+  document.querySelector('#displayArea').innerHTML = items;
+};
 // Console log items
-
 console.log(itemsArray);
+
+//window.onload = displayItems();
+window.onload = function() {
+displayItems()
+};
