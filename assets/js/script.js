@@ -20,6 +20,7 @@ function createItem(item){
 // Remove an item and clear local storage
 
 removeItemButton.addEventListener('click', () => {
+  itemsArray.splice(0, 1);
   localStorage.removeItem('items', JSON.stringify(itemsArray));
   location.reload();
 });

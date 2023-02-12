@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+/* Main */
+main {
+    max-width: 1440px;
+    margin: auto;
+}
+.to-do-input{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+/* Input Text */
+input {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+}
+
+/* Buttons */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: #333;
+    text-transform: uppercase;
+}
+/* Display list */
+#displayArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+/* List */
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    list-style: none;
+}
