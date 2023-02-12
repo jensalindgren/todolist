@@ -35,14 +35,12 @@ for (let i = 0; i < itemsArray.length; i++) {
     </div>
   </div>
   <div class="update-field">
-    <button class="saveBtn">Save</button>
     <button class="removeItem">Remove</button>
   </div>
 </div>`;
   }
   document.querySelector('#displayArea').innerHTML = items;
   activateRemoveItem();
-  activateSaveItem();
 }
 
 // Remove item 
@@ -60,12 +58,6 @@ function deleteItem(i){
   itemsArray.splice(i, 1);
   localStorage.setItem('items', JSON.stringify(itemsArray));
   location.reload();
-}
-
-// Save item
-
-function activateSaveItem(){
-  let saveItemButton = document.querySelectorAll('.saveBtn');
 }
 
 // Console log items
