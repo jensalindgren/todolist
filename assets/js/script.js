@@ -31,23 +31,38 @@ function displayItems(){
   let items = "";
 for (let i = 0; i < itemsArray.length; i++) {
   items += `<div class="item">
-  <div class="input-controller">
+  <div class="input-field">
     <textarea disabled>${itemsArray[i]}</textarea>
     <div class="edit-controller">
     </div>
   </div>
-  <div class="update-controller">
+  <div class="update-field">
     <button class="saveBtn">Save</button>
-    <button id="removeItem">Remove</button>
+    <button class="removeItem">Remove</button>
   </div>
 </div>`
   };
   document.querySelector('#displayArea').innerHTML = items;
+  activateRemoveItem();
+  activateSaveItem();
 };
+
+// Remove item 
+
+function activateRemoveItem(){
+  let removeItemButton = document.querySelectorAll('.removeItem');
+};
+
+// Save item
+
+function activateSaveItem(){
+  let saveItemButton = document.querySelectorAll('.saveBtn');
+};
+
 // Console log items
 console.log(itemsArray);
 
 //window.onload = displayItems();
 window.onload = () => {
-displayItems()
+  displayItems()
 };
