@@ -26,7 +26,7 @@ clearLocalStorageButton.addEventListener('click', () => {
 
 
 // Display all items
-// Loop through localStorage and display the keys and values
+// Loop through localStorage and display the items
 function displayItems(){
   let items = "";
 for (let i = 0; i < itemsArray.length; i++) {
