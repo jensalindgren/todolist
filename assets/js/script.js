@@ -1,8 +1,6 @@
 // Const
 const itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
 const clearLocalStorageButton = document.getElementById('clearLocalStorage');
-const removeItemButton = document.getElementById('removeItem');
-const displayArea = document.getElementById('displayArea');
 
 // Create a new item
 
@@ -15,7 +13,7 @@ function createItem(item){
   itemsArray.push(item.value);
   localStorage.setItem('items', JSON.stringify(itemsArray));
   location.reload();
-};
+}
 
 // clear local storage
 
@@ -40,12 +38,12 @@ for (let i = 0; i < itemsArray.length; i++) {
     <button class="saveBtn">Save</button>
     <button class="removeItem">Remove</button>
   </div>
-</div>`
-  };
+</div>`;
+  }
   document.querySelector('#displayArea').innerHTML = items;
   activateRemoveItem();
   activateSaveItem();
-};
+}
 
 // Remove item 
 
@@ -56,24 +54,24 @@ function activateRemoveItem(){
       deleteItem(i);
     });
   });
-};
+}
 
 function deleteItem(i){
   itemsArray.splice(i, 1);
   localStorage.setItem('items', JSON.stringify(itemsArray));
   location.reload();
-};
+}
 
 // Save item
 
 function activateSaveItem(){
   let saveItemButton = document.querySelectorAll('.saveBtn');
-};
+}
 
 // Console log items
 console.log(itemsArray);
 
 //window.onload = displayItems();
 window.onload = () => {
-  displayItems()
+  displayItems();
 };
