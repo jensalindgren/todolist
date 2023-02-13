@@ -10,17 +10,20 @@
 </head>
 <body>
     <main>
-        <h1>Todo List</h1>
-        <div>
-          <div class="to-do-input">
-            <input type="text" id="item" placeholder="Enter a task...">
-            <div class="button">
-            <button id="enter">Enter</button>
-            <button id="clearLocalStorage">Clear All Task</button>
-          </div>
-          </div>
-          <div id="displayArea"></div>
+      <h1>Todo List</h1>
+    <div class="toggleBtn">
+      <button onclick="toggle()">Build Your List</button>
+    </div>
+    <div id="toggle">
+      <div class="to-do-input">
+          <input type="text" id="item" placeholder="Enter a task...">
+        <div class="button">
+          <button id="enter">Enter</button>
+          <button id="clearLocalStorage">Clear All Task</button>
         </div>
-      </main>
+      </div>
+        <div id="displayArea"></div>
+    </div>
+    </main>
 </body>
 </html>

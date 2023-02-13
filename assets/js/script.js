@@ -67,3 +67,14 @@ console.log(itemsArray);
 window.onload = () => {
   displayItems();
 };
+
+// Toggle Button to see the list
+function toggle(){
+  let X = document.getElementById("toggle");
+  if(X.style.display === "none"){
+    X.style.display = "block";
+  }
+  else{
+    X.style.display = "none";
+  }
+}
