@@ -35,7 +35,7 @@ for (let i = 0; i < itemsArray.length; i++) {
     </div>
   </div>
   <div class="update-field">
-    <button class="removeItem">Remove</button>
+    <button id="button2" class="removeItem">Remove</button>
   </div>
 </div>`;
   }
