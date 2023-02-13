@@ -7,23 +7,38 @@
     <title>Document</title>
     <script src="assets/js/script.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <main>
-      <h1>Todo List</h1>
-    <div class="toggleBtn">
-      <button onclick="toggle()">Build Your List</button>
-    </div>
-    <div id="toggle">
-      <div class="to-do-input">
+      <section class="list">
+      <h1>Create Your Own Training List</h1>
+    <div>
+      <button class="toggleBtn" onclick="toggle()">Build Your List</button>
+      <div id="toggle" class="to-do-input">
           <input type="text" id="item" placeholder="Enter a task...">
         <div class="button">
           <button id="enter">Enter</button>
-          <button id="clearLocalStorage">Clear All Task</button>
+          <button id="clearLocalStorage">Clear All Tasks</button>
         </div>
       </div>
         <div id="displayArea"></div>
     </div>
-    </main>
+  </section>
+</main>
+<!-- Footer -->
+<div class="footer">
+  <div class="">
+    <div class="terms">
+      <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a target="_blank" href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a>
+      <a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    </div>
+  <div class="rights">
+    © All Rights Reserved
+  </div>
+  </div>
+</div>
 </body>
 </html>

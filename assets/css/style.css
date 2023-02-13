@@ -1,63 +1,105 @@
 * {
+    padding: 0;
+    margin: 0;
+}
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    background-color: #f5f5f5;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 /* Main */
 main {
     max-width: 1440px;
     margin: auto;
-}
-.to-do-input{
-    display: grid;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 20px;
 }
-/* Input Text */
-input {
-    display: flex;
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#item{
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: 10px;
     height: 50px;
-    width: 300px;
+    width: 50%;
+    margin: 20px;
+    border: 1px solid black;
     border-radius: 10px;
-    border: 1px solid #333;
-    background-color: #fff;
 }
 /* Buttons */
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.toggleBtn{
-padding-left: 675px;
-}
-button {
-    margin: 10px;
-    height: 50px;
-    width: 70px;
-    border-radius: 10px;
-    background-color: #fff;
-    border: 1px solid #333;
-}
-button:hover {
+.toggleBtn {
     background-color: #333;
-    color: #fff;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.30s ease-in-out;
+    margin: 20px;
 }
-/* Titles */
-h1 {
-    text-align: center;
-    margin-top: 100px;
-    font-size: 50px;
+#enter {
+    background-color: #333;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.30s ease-in-out;
+
+}
+#clearLocalStorage {
+    background-color: #333;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.30s ease-in-out;
+}
+.removeItem{
+    background-color: #333;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.30s ease-in-out;
+}
+/* Hover effect */
+button:hover {
+    background-color: #fff;
     color: #333;
-    text-transform: uppercase;
 }
+#clearLocalStorage:hover {
+    background-color: #fff;
+    color: #333;
+}   
+
+#enter:hover {
+    background-color: #fff;
+    color: #333;
+}
+
 /* Display list */
 #displayArea{
     display: flex;
@@ -86,3 +128,57 @@ h1 {
     font-family: inherit;
     transition: all 0.30s ease-in-out;
   }
+/* Footer */
+.footer {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    background-color: #333;
+    height: auto;
+    display: flex;
+    min-width: 360px;
+}
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terms {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.terms a {
+    text-decoration: none;
+    text-transform: initial;
+    font-weight: 400;
+    color: white;
+    font-size: large;
+}
+.terms a:hover {
+    color: #555;
+}
+.fa {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.rights {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: initial;
+    font-weight: 200;
+    padding-bottom: 50px;
+    color: white;
+}
