@@ -89,6 +89,7 @@ h1{
 button:hover {
     background-color: #fff;
     color: #333;
+    transform: translate(-2px);
 }
 #clearLocalStorage:hover {
     background-color: #fff;
