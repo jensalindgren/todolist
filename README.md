@@ -238,9 +238,9 @@ Both from the list and from local storage. And will reload the page.
 
 - Here you can see the final result for the to do list. The to do list is working on all devices and browsers and is responsive. The list is validated with W3C validator and JShint. The website is tested on different devices and browsers.
 
-Here is the link to the website: 
+Here is the link to the list: 
 
-Website on desktop:
+List on desktop:
 
 - Screenshot are taken from chrome dev tools. But put together in Balsamiq.
 
@@ -250,7 +250,7 @@ Website on desktop:
 ![Alt text](/assets/
 ![Alt text](/assets/
 
-Website on mobile:
+List on mobile:
 
 - Screenshot are taken from chrome dev tools. But put together in Balsamiq.
 - Some of the pictures have been adjusted in sizes to fit the screen in Balsamiq.
