@@ -3,7 +3,6 @@ const itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getIt
 const clearLocalStorageButton = document.getElementById('clearLocalStorage');
 
 // Create a new item
-
 document.querySelector('#enter').addEventListener('click', () => {
   const item = document.querySelector('#item');
   createItem(item);
@@ -21,7 +20,6 @@ function createItem(item){
 }
 
 // clear local storage
-
 clearLocalStorageButton.addEventListener('click', () => {
   localStorage.clear();
   location.reload();
@@ -39,7 +37,7 @@ for (let i = 0; i < itemsArray.length; i++) {
     <div class="edit-controller">
     </div>
   </div>
-  <div class="update-field">
+  <div>
     <button class="removeItem">Remove</button>
   </div>
 </div>`;
@@ -49,7 +47,6 @@ for (let i = 0; i < itemsArray.length; i++) {
 }
 
 // Remove item 
-
 function activateRemoveItem(){
   let removeItemButton = document.querySelectorAll('.removeItem');
   removeItemButton.forEach((removeItemButton, i) => {

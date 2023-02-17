@@ -130,7 +130,7 @@ Footer on mobile:
 
 ### Enter Task
 
-- When you click on the text field you will be able to enter a task. It will be added to the list. And all the task you will enter will be stored in local storage. Just click the enter button on the screen to store it. After you have entered a task the page will reload.
+- When you click on the text field you will be able to enter a task. It will be added to the list. And all the task you will enter will be stored in local storage. Just click the enter button on the screen to store it. After you have entered a task the page will reload. If you don't enter a task and click the enter button you will get an alert message.
 
 ### Clear All
 
@@ -213,7 +213,7 @@ The list it also tested on responsivedesignchecker.com.
 ### Enter Button
 
 - The enter button is working and will show the correct task you have entered.
-And will reload the page.
+And will reload the page. If you don't enter a task and click the enter button you will get an alert message.
 
 ### Clear All Button
 
