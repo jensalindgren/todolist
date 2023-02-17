@@ -79,7 +79,7 @@ The colors used in this project are: White, Black, #333. The colors are used to 
 
 The wireframes for this project was created with Balsamiq. The wireframes can be found in the folder "wireframes" in folder assets.
 
-![Alt text](/assets/wireframes/1.png)
+![Alt text](/assets/wireframes/todo.png)
 
 ## General Features
 
@@ -95,11 +95,11 @@ The wireframes for this project was created with Balsamiq. The wireframes can be
 
 Header on desktop:
 
-![Alt text](/assets/
+![Alt text](/assets/wireframes/headerdesk.png)
 
 Header on mobile:
 
-![Alt text](/assets/
+![Alt text](/assets/wireframes/headermob.png)
 
 2. Footer
 
@@ -113,11 +113,11 @@ Header on mobile:
 
 Footer on desktop:
 
-![Alt text](/assets/
+![Alt text](/assets/wireframes/footerdesk.png)
 
 Footer on mobile:
 
-![Alt text](/assets/
+![Alt text](/assets/wireframes/footermob.png)
 
 [Back to top ⇧](#html--css-project)
 
@@ -240,22 +240,11 @@ Both from the list and from local storage. And will reload the page.
 
 Here is the link to the list: 
 
-List on desktop:
+List on desktop and mobile:
 
 - Screenshot are taken from chrome dev tools. But put together in Balsamiq.
 
-![Alt text](/assets/)
-![Alt text](/assets/
-![Alt text](/assets/
-![Alt text](/assets/
-![Alt text](/assets/
-
-List on mobile:
-
-- Screenshot are taken from chrome dev tools. But put together in Balsamiq.
-- Some of the pictures have been adjusted in sizes to fit the screen in Balsamiq.
-
-![Alt text](/assets/
+![Alt text](/assets/wireframes/deskandmob.png)
 
 [Back to top ⇧](#html--css-project)
 
