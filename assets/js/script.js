@@ -62,21 +62,27 @@ function deleteItem(i){
   location.reload();
 }
 
-// Console log items
-console.log(itemsArray);
-
 //window.onload = displayItems();
 window.onload = () => {
+
+  if(itemsArray.length === 0){
+    hideElement();
+  }else{
+    showElement();
+  }
   displayItems();
 };
 
 // Toggle Button to see the list
 function showElement() {
-  element = document.querySelector('.container');
+  element = document.querySelector('.container',);
   element.style.display = 'block';
 }
 
 function hideElement() {
-  element = document.querySelector('.container');
+  element = document.querySelector('.container',);
   element.style.display = 'none';
 }
+
+
+
