@@ -29,7 +29,7 @@ Here is the link to the website:https://jensalindgren.github.io/todolist/
     - [Testing on different browsers](#testing-on-different-browsers)
   - [Manual Testing](#manual-testing)
     - [Index](#index)
-    - [Enter Task Button](#enter-task-button)
+    - [Enter Button](#enter-button)
     - [Clear All Button](#clear-all-button)
     - [Remove Button](#remove-button)
   - [Final Result](#final-result)
