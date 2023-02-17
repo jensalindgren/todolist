@@ -34,6 +34,9 @@ Here is the link to the website:https://jensalindgren.github.io/todolist/
     - [Clear All Button](#clear-all-button)
     - [Remove Button](#remove-button)
   - [Final Result](#final-result)
+  - [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [Features Left to Implement](#features-left-to-implement)
   - [Credits](#credits)
   
 ## Project Goals
