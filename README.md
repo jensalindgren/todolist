@@ -4,9 +4,9 @@
 
 This is a simple To Do List. The project is to showcase my skills in HTML, CSS and Javascript.
 
-Here is the link to the website: 
+Here is the link to the website:https://jensalindgren.github.io/todolist/
 
-![Alt text](/assets/)
+![Alt text](/assets/wireframes/dep.png)
 
 ## Table of Contents
 
@@ -253,7 +253,7 @@ List on desktop and mobile:
 
 - This to do list was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
 
-Here is the link to the website: 
+Here is the link to the website:https://jensalindgren.github.io/todolist/
 
 ## GitHub Pages
 
