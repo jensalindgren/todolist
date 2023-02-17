@@ -73,7 +73,8 @@ The font used in this project is Open Sans. It is a sans-serif font that is easy
 
 ## Colors
 
-The colors used in this project are: White, Black, #333. The colors are used to create a clean and modern look.
+The colors used in this project are: White, Black, Whitesmoke, #333. The colors are used to create a clean and modern look.
+For the buttons I used, rgb(180, 216, 125), rosybrown and #333.
 
 ## Wireframes
 
