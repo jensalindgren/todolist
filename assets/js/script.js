@@ -71,12 +71,12 @@ window.onload = () => {
 };
 
 // Toggle Button to see the list
-function toggle(){
-  let X = document.getElementById("toggle");
-  if(X.style.display === "none"){
-    X.style.display = "block";
-  }
-  else{
-    X.style.display = "none";
-  }
+function showElement() {
+  element = document.querySelector('.container');
+  element.style.display = 'block';
+}
+
+function hideElement() {
+  element = document.querySelector('.container');
+  element.style.display = 'none';
 }

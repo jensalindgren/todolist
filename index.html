@@ -20,12 +20,17 @@
 <!-- Main -->
 <main>
   <h1>Create Your Own Training List</h1>
-  <p>Here can you store your training exercises. Maybe your personal to-do list.<br>The sky is the limit. Just click the button below and start your journey.</p>
+  <p>Here you can store your training exercises, the main goal is to make a list of exercises that will allow you to reach your exercise or health goals quickly.<br> You can use this site at anytime and come back to it later as we save your goals so that you can focus on reaching them.</p>
   <div class="img">
-    <button class="toggleBtn" onclick="toggle()">Hide or show list</button>
+    <button class="toggleBtn" onclick="showElement()">
+      Show
+  </button>
+  <button class="toggleBtn" onclick="hideElement()">
+      Hide
+  </button>
   </div>
   <section>
-    <div class="">
+    <div class="container">
       <div id="toggle" class="to-do-input">
         <h3>Enter your task below in the field. You can clear all tasks. If you want remove them individually just use the remove button.</h3>
         <input class="text" type="text" id="item" placeholder="Enter a task...">
