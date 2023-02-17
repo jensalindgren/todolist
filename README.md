@@ -2,7 +2,8 @@
 
 ## General Info
 
-This is a simple To Do List. The project is to showcase my skills in HTML, CSS and Javascript.
+This is a simple training list. The project is to showcase my skills in HTML, CSS and Javascript.
+Main focus is to website is to store tasks on the local storage so you can come back and use the list again and again. It's easy to add and remove items. The website can delete all items on the local storage.
 
 Here is the link to the website:https://jensalindgren.github.io/todolist/
 
