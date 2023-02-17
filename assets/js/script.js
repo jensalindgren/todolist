@@ -75,12 +75,12 @@ window.onload = () => {
 
 // Toggle Button to see the list
 function showElement() {
-  element = document.querySelector('.container',);
+  element = document.querySelector('.container');
   element.style.display = 'block';
 }
 
 function hideElement() {
-  element = document.querySelector('.container',);
+  element = document.querySelector('.container');
   element.style.display = 'none';
 }
 

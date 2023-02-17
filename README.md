@@ -24,7 +24,7 @@ Here is the link to the website:https://jensalindgren.github.io/todolist/
     - [Enter Task](#enter-task)
     - [Clear All](#clear-all)
     - [Remove](#remove)
-    - [Build Your List](#build-your-list)
+    - [Show and Hide](#show-and-hide)
   - [Testing](#testing)
     - [Code validation](#code-validation)
     - [Testing on different browsers](#testing-on-different-browsers)
@@ -141,9 +141,10 @@ Footer on mobile:
 
 - When you have entered a task you will see a remove button. When you click on the remove button the task will be removed from the list. And the task will be removed from local storage. After you have removed the task the page will reload.
 
-### Build Your List
+### Show And Hide
 
-- The build your list button will hide the to do list. Or if you prefer to see the to do list you can click on the button again and the to do list will show.
+- When you click on the button show in the big picture the to do list will appear. And when you click on the button hide the list will vanish.
+- It will also show the button clear all and the button remove. And instructions on how to use the to do list.
 
 [Back to top ⇧](#html--css-project)
 ## Testing
@@ -227,7 +228,8 @@ Both from the list and from local storage. And will reload the page.
 
 ### Build Your List Button
 
-- The build your list button is working and will hide the to do list. And will show the to do list again.
+- The show button is working and will show the to do list. And the hide button is working and will hide the to do list.
+- Instructions on how to use the to do list is working and will show the instructions on how to use the to do list.
 
 ## Commit History
 
