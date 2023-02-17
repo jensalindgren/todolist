@@ -26,7 +26,7 @@ Here is the link to the website:https://jensalindgren.github.io/todolist/
     - [Build Your List](#build-your-list)
   - [Testing](#testing)
     - [Code validation](#code-validation)
-    - [Testing on different devices](#testing-on-different-devices)
+    - [Testing on different browsers](#testing-on-different-browsers)
   - [Manual Testing](#manual-testing)
     - [Index](#index)
     - [Enter Task Button](#enter-task-button)
@@ -210,7 +210,7 @@ The list it also tested on responsivedesignchecker.com.
 - All the hover effects are working and will change color and move the text to the left. I have tested all the hover effects on all the pages.
 - All the pictures are working and will show the correct picture.
 
-### Enter Button
+### Enter Task Button
 
 - The enter button is working and will show the correct task you have entered.
 And will reload the page. If you don't enter a task and click the enter button you will get an alert message.
