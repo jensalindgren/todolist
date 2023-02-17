@@ -13,6 +13,11 @@ function createItem(item){
   itemsArray.push(item.value);
   localStorage.setItem('items', JSON.stringify(itemsArray));
   location.reload();
+
+  if(item.value === ""){
+    alert("Please enter a valid item");
+    deleteItem(itemsArray.length - 1);
+  }
 }
 
 // clear local storage
