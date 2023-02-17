@@ -242,7 +242,7 @@ Both from the list and from local storage. And will reload the page.
 
 - Here you can see the final result for the to do list. The to do list is working on all devices and browsers and is responsive. The list is validated with W3C validator and JShint. The website is tested on different devices and browsers.
 
-Here is the link to the list: 
+Here is the link to the list:https://jensalindgren.github.io/todolist/
 
 List on desktop and mobile:
 
@@ -256,8 +256,6 @@ List on desktop and mobile:
 
 - This to do list was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
 
-Here is the link to the website:https://jensalindgren.github.io/todolist/
-
 ## GitHub Pages
 
 - Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
@@ -270,7 +268,18 @@ Here is the link to the website:https://jensalindgren.github.io/todolist/
 
 - The page will refresh automatically and generate a link to your website.
 
-- Here is the link to the website: https://jensalindgren.github.io/todolist/
+- Here is the link to the website:https://jensalindgren.github.io/todolist/
+
+## Features Left to Implement
+
+- I would like to add a date and time to the task. So you can see when you have entered the task.
+- I would like to add a checkbox to the task. So you can check the task when it is done.
+- I would like to add a edit button to the task. So you can edit the task if you have made a mistake.
+- I would like to add a sort button to the task. So you can sort the task by date and time.
+- I would like to add categories to the task. So you can sort the task by categories.
+- I would like to add a custom alert message. So you can have a custom alert message when you have entered a task. Or when a error pops up.
+
+All the features will be added in the future. When I have more time to polish the list.
 
 ## Credits
 
@@ -281,5 +290,7 @@ Feel free to use the content for your own projects.
 Code for inspiration is from Stackoverflow.com and w3schools.com.
 
 The pictures are from unsplash.com.
+
+And a big thank you to my mentor Marcel for all the help and support.
 
 [Back to top ⇧](#html--css-project)
