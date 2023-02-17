@@ -148,8 +148,8 @@ Footer on mobile:
 ## Testing
 
 - All the links are working and will take you to the correct page.
-- All the pictures are working and will take you to the correct page.
-- All the buttons are working and will take you to the correct page.
+- All the pictures are working.
+- All the buttons are working.
 
 ### Code validation
 
