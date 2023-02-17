@@ -83,6 +83,3 @@ function hideElement() {
   element = document.querySelector('.container');
   element.style.display = 'none';
 }
-
-
-
