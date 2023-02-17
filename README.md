@@ -270,11 +270,15 @@ Here is the link to the website:https://jensalindgren.github.io/todolist/
 
 - The page will refresh automatically and generate a link to your website.
 
+- Here is the link to the website: https://jensalindgren.github.io/todolist/
+
 ## Credits
 
 All the HTML, CSS and JS content are written by me.
 
 Feel free to use the content for your own projects.
+
+Code for inspiration is from Stackoverflow.com and w3schools.com.
 
 The pictures are from unsplash.com.
 
