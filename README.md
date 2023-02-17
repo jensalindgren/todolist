@@ -10,7 +10,7 @@ Here is the link to the website:https://jensalindgren.github.io/todolist/
 
 ## Table of Contents
 
-- [HTML \& CSS Project](#html--css-project)
+- [Training List (To Do List)](#training-list-to-do-list)
   - [General Info](#general-info)
   - [Table of Contents](#table-of-contents)
   - [Project Goals](#project-goals)
