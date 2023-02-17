@@ -124,7 +124,7 @@ Footer on mobile:
 
 ![Alt text](/assets/wireframes/footermob.png)
 
-[Back to top ⇧](#html--css-project)
+[Back to top ⇧](#training-list-to-do-list)
 
 ### Index Page
 
@@ -149,7 +149,7 @@ Footer on mobile:
 - When you click on the button show in the big picture the to do list will appear. And when you click on the button hide the list will vanish.
 - It will also show the button clear all and the button remove. And instructions on how to use the to do list.
 
-[Back to top ⇧](#html--css-project)
+[Back to top ⇧](#training-list-to-do-list)
 ## Testing
 
 - All the links are working and will take you to the correct page.
@@ -206,7 +206,6 @@ The list it also tested on responsivedesignchecker.com.
 
 - Both tools are showing that the site is responsiveness in different screen sizing on all devices.
 
-
 ## Manual Testing
 
 ### Index
@@ -238,8 +237,7 @@ Both from the list and from local storage. And will reload the page.
 
 - The commit history can be found on Github. The link to the commit history is: https://github.com/jensalindgren/todolist/commits/main
 
-
-[Back to top ⇧](#html--css-project)
+[Back to top ⇧](#training-list-to-do-list)
 
 ## Final Result
 
@@ -253,7 +251,7 @@ List on desktop and mobile:
 
 ![Alt text](/assets/wireframes/deskandmob.png)
 
-[Back to top ⇧](#html--css-project)
+[Back to top ⇧](#training-list-to-do-list)
 
 ## Deployment
 
@@ -296,4 +294,4 @@ The pictures are from unsplash.com.
 
 And a big thank you to my mentor Marcel for all the help and support.
 
-[Back to top ⇧](#html--css-project)
+[Back to top ⇧](#training-list-to-do-list)
